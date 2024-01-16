@@ -179,6 +179,12 @@ font-weight: 800;
     grid-column: 1/span 6;
 }
 
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img2{
     grid-column: 7/span 6;
 }
