@@ -433,10 +433,38 @@ font-weight: 800;
     z-index: 1;
     max-width: 220px;
 }
+/* perfect place section finish */
 
+/* about part start */
+.about {
+    width: 100%;
+    padding: 90px;
+    border-radius: 10px;
+    background: rgba(41, 206, 246, 0.05);
+    margin: 90px auto;
+    text-align: center;
 
+}
 
-/* perfect place section start */
+.about h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    text-align: center;
+    margin: 50px 30px 20px;
+    line-height: 30px;
+}
+/* about part finish */
 
 /* footer part start */
 
@@ -557,6 +585,9 @@ footer{
 
     .place_right img{
         width: 90%;
+    }
+    .about{
+        padding: 40px;
     }
 
 }
