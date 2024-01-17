@@ -172,7 +172,7 @@ font-weight: 800;
     grid-template-columns:(12, 1fr) ;
     grid-template-rows: (3, 1fr);
     gap: 20px;
-    padding: 90px 0px;
+    padding: 40px 0px 0px;
 }
 
 .img1{
@@ -303,6 +303,10 @@ font-weight: 800;
 /* gallary section finish */
 
 /* why choose section start */
+.why_choose{
+    margin: 90px 0px;
+}
+
 .why_choose_top{
     max-width: 650px;
     margin: 0 auto;
@@ -427,6 +431,7 @@ font-weight: 800;
     right: 40px;
     bottom: 20px;
     z-index: 1;
+    max-width: 220px;
 }
 
 
